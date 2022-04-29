@@ -43,3 +43,41 @@ Your branch is up to date with 'origin/fibonacci'.
 
 nothing to commit, working tree clean
 ```
+
+## Wprowadzenie zmian w implementacji
+Jeśli wprowadzimy już jakieś zmiany w naszej implementacji zadania domowego, dobrze byłoby je zatwierdzić (po nerdowsku - utworzyć commita z naszymi zmianami).
+
+Sprawdźmy w jakich plikach znajdują się wprowadzone przez nas zmiany.
+```
+git status
+```
+
+Przykładowe wyjście:
+```
+On branch fibonacci
+Your branch is up to date with 'origin/fibonacci'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   homework/fibonacci/fibonacci.hpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+W naszym przypadku widzimy, że mamy niezatwierdzone zmiany w pliku `homework/fibonacci/fibonacci.hpp`.
+
+Następnie dodajemy nasze zmiany na listę zmian, które mają zostać zatwierdzone. Korzystamy z polecenia `git add`.
+```
+git add homework/fibonacci/fibonacci.hpp
+```
+
+Po użyciu polecenia `git status` możemy zauważyć, że zmiany w naszym pliku zostały przeniesione do sekcji `Changes to be committed`.
+```
+On branch fibonacci
+Your branch is up to date with 'origin/fibonacci'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   homework/fibonacci/fibonacci.hpp
+```
