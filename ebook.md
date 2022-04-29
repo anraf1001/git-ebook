@@ -35,3 +35,11 @@ Aktualna gałąź zostanie oznaczona za pomocą `*`.
 * fibonacci
   main
 ```
+Kolejnym sposobem jest wykorzystanie polecenia `git status`.
+W odpowiedzi dostaniemy informację o aktualnej gałęzi, ale także czy nasza lokalna gałąź jest aktualna ze swoim odpowiednikiem na GitHubie oraz czy zostały wprowadzone niezatwierdzone jeszcze zmiany.
+```
+On branch fibonacci
+Your branch is up to date with 'origin/fibonacci'.
+
+nothing to commit, working tree clean
+```
