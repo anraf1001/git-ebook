@@ -81,3 +81,16 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
 	modified:   homework/fibonacci/fibonacci.hpp
 ```
+
+Chcąc zatwierdzić zmiany używamy polecenia `git commit -m <nazwa_commita>`.
+Przykładowo:
+```
+git commit -m "Add fibonacci implementation"
+```
+
+Po dodaniu naszych zmian możemy sprawdzić czy faktycznie zostały one dodane korzystając z polecenia `git log --oneline`.
+Wyświetlona zostanie historia dodanych commitów.
+na samej górze znajduje się najnowszy commit tj. dodany przez.
+```
+030eb8f (HEAD -> fibonacci) Add fibonacci implementation
+```
