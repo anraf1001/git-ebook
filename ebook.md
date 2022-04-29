@@ -94,3 +94,8 @@ na samej górze znajduje się najnowszy commit tj. dodany przez.
 ```
 030eb8f (HEAD -> fibonacci) Add fibonacci implementation
 ```
+
+## Wysłanie zmian do repozytorium na GitHubie
+Zatwierdzone przez nas zmiany znajdują się już w naszej lokalnej kopii repozytorium. Jeśli chcemy wysłać wprowadzone zmiany na nasze repozytorium na GitHubie, korzystamy z polecenia `git push`.
+
+Po wysłaniu zmian na GitHuba możemy np. dodać pull requesta z naszego forka do bazowego repozytorium.
