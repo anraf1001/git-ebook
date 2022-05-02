@@ -1,4 +1,12 @@
 # Podstawowe użycie gita
+## Instalacja gita
+Przed użyciem gita na naszym komputerze, musimy go zainstalować.
+Jeśli korzystamy z Ubuntu, możemy to zrobić komendą:
+```
+sudo apt install git
+```
+Sposoby instalacji gita dla innych dystrybucji Linuxa oraz Windowsa i macOSa możemy znaleźć na stronie: [Instalacja gita](https://git-scm.com/downloads).
+
 ## Sklonowanie repozytorium
 Jeśli chcemy wprowadzić zmiany w repozytorium na naszym komputerze, w pierwszej kolejności musimy sklonować repozytorium (stworzyć jego lokalną kopię).
 Do tego celu służy komenda:
