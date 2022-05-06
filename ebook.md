@@ -96,6 +96,28 @@ Przykładowo:
 git commit -m "Add fibonacci implementation"
 ```
 
+Podczas zatwierdzania zmian możemy otrzymać błąd:
+```
+Author identity unknown
+
+*** Please tell me who you are
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+```
+Jeśli tak się stanie, dodajemy nasze dane do konfiguracji gita zgodnie z instrukcją.
+Przykładowo:
+```
+git config --global user.email "jan@kowalski.com"
+```
+```
+git config --global user.name "Jan Kowalski"
+```
+
 Po dodaniu naszych zmian możemy sprawdzić, czy faktycznie zostały one dodane, korzystając z polecenia `git log --oneline`.
 Wyświetlona zostanie historia dodanych commitów.
 na samej górze znajduje się najnowszy commit tj. dodany przez.
